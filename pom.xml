@@ -9,14 +9,9 @@
   <url>http://maven.apache.org</url>
   <dependencies>
       <dependency>
-          <groupId>jstl</groupId>
+          <groupId>javax.servlet</groupId>
           <artifactId>jstl</artifactId>
-          <version>1.0.2</version>
-      </dependency>
-      <dependency>
-          <groupId>taglibs</groupId>
-          <artifactId>standard</artifactId>
-          <version>1.0.4</version>
+          <version>1.2</version>
       </dependency>
       <dependency>
       	<groupId>javax.portlet</groupId>
