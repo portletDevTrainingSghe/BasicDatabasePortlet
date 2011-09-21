@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sungardhe.demo.portlets.bookportlet</groupId>
+  <artifactId>BookPortlet</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Book Portlet</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+      <dependency>
+          <groupId>jstl</groupId>
+          <artifactId>jstl</artifactId>
+          <version>1.0.2</version>
+      </dependency>
+      <dependency>
+          <groupId>taglibs</groupId>
+          <artifactId>standard</artifactId>
+          <version>1.0.4</version>
+      </dependency>
+      <dependency>
+      	<groupId>javax.portlet</groupId>
+      	<artifactId>portlet-api</artifactId>
+      	<version>2.0</version>
+      	<type>jar</type>
+      	<scope>provided</scope>
+      </dependency>
+      <dependency>
+      	<groupId>org.apache.pluto</groupId>
+      	<artifactId>pluto-taglib</artifactId>
+      	<version>1.1.7</version>
+      	<type>jar</type>
+      	<scope>provided</scope>
+      </dependency>
+      <dependency>
+      	<groupId>c3p0</groupId>
+      	<artifactId>c3p0</artifactId>
+      	<version>0.9.1.2</version>
+      	<type>jar</type>
+      	<scope>compile</scope>
+      </dependency>
+  </dependencies>
+</project>
