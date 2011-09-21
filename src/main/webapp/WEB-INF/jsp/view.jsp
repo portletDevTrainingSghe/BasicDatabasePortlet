@@ -1,6 +1,5 @@
 <%@page language="java"%>
 <%@page import="java.util.List, javax.portlet.WindowState"%>
-<%@page import="com.liferay.portal.kernel.util.Constants,com.liferay.portal.kernel.util.HtmlUtil,com.liferay.portal.kernel.util.ParamUtil" %>
 <%@page import="com.sungardhe.demo.portlets.bookportlet.model.BookItem, com.sungardhe.demo.portlets.bookportlet.model.BookItemDAO, com.sungardhe.demo.portlets.bookportlet.util.ConnectionPool" %>
 
 
